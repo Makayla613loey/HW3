@@ -1,7 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 // Special characters for the function created
-const specialCharacters = "!@#$%^&*()";
+const specialCharacters = "!@%^&*()";
 const generateButton = document.getElementById('generateBtn')
 generateButton.addEventListener('click', writePassword)
 // Write password to the #password input
@@ -86,4 +86,3 @@ function generatePassword() {
       </div>
     </div>
   </div>
-  
